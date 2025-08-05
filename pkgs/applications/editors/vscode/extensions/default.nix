@@ -3284,6 +3284,8 @@ let
         };
       };
 
+      ms-ossdata.vscode-pgsql = callPackage ./ms-ossdata.vscode-pgsql { };
+
       ms-pyright.pyright = callPackage ./ms-pyright.pyright { };
 
       ms-python.black-formatter = callPackage ./ms-python.black-formatter { };
